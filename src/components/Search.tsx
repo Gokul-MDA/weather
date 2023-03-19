@@ -22,6 +22,7 @@ const Search: React.FC<Iprops> = ({ query, setQuery, getWeather }) => {
           onChange={(e) => setQuery(e.target.value)}
           label="Enter Location"
           variant="outlined"
+          className="input"
         />
         <Button type="submit" className="searchtxt">
           Search

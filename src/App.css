@@ -1,33 +1,64 @@
 .App {
-  background: url("../src/assets/Img3.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #ebebeb;
   width: 100%;
-  /* height: 100%; */
+  padding: 0;
+  margin: 0;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
 .search {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
-  /* width: 300px; */
+  padding-top: 60px;
 }
+
+.input {
+  width: 450px;
+}
+
 .searchtxt {
-  color: black;
+  color: white !important;
+  font-weight: 700;
+  background-color: #1f1f1f !important;
 }
 
 .cardView {
   display: flex;
+  justify-content: center;
+}
+
+.city {
+  text-align: center !important;
 }
 
 .today {
-  padding: 60px;
+  padding: 20px;
   position: relative;
-  left: 90px;
 }
 
 .cardIcon {
   display: flex;
-  margin: 30px 0 0 150px;
+  align-items: center;
+}
+
+.cardIcon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Weatherdeg {
+  font-size: 40px;
 }
 
 .forecast {
@@ -37,5 +68,47 @@
 .future {
   padding: 10px;
   position: relative;
-  left: 250px;
+}
+
+.additionalDetails {
+  padding: 20px;
+}
+
+.weatherImg {
+  margin-left: 20px;
+}
+
+.weatherRep {
+  width: 80px;
+}
+
+.rainStatus {
+  margin: auto;
+}
+
+.futureReport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.futureReportCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.activeDay {
+  background-color: #b5b9bb !important;
 }
